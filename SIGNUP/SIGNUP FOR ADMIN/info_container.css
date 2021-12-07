@@ -1,0 +1,23 @@
+.info-container {
+  float: right;
+}
+
+
+/*.nav1 span {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}*/
+
+
+.nav1 .info-container span {
+/*  float: right;
+*/  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}

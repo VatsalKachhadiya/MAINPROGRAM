@@ -1,0 +1,150 @@
+body{
+	background-color: white;
+}
+/*first header*/
+.header1{
+	top: 0;
+	position: sticky;
+	position: -webkit-sticky;
+	
+}
+/*div tag 1*/
+.container1{
+	padding: 30px;
+	background-color: #c0c0c0;
+}
+
+.search-container {
+  float: right;
+}
+
+
+/*image logo*/
+.logo{
+	margin-left: 30px; 
+	margin-right: 10px;
+}
+
+/*SEARCHBOX*/
+
+ .nav1 .search-container {
+  float: right;
+}
+
+.nav1 input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+/*
+.container10{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+*/
+.nav1 .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav1 .search-container button:hover {
+  background: #d3d3d3;
+}
+
+@media screen and (max-width: 600px) {
+  .nav1 .search-container {
+    float: none;
+  }
+
+  .nav1 a, .nav1 input[type=text], .nav1 .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .nav1 input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+/*div tag 2 & NAVBAR 2*/
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d3d3d3;
+}
+
+.ul1 li {
+  float: left;
+}
+
+.ul1 li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ul1 li a:hover, .dropdown:hover, .dropbtn:hover {
+  background-color: #c0c0c0;
+}
+
+.ul1 li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font: 2px;	
+  color: black;
+  padding: 2px 6px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*header2 css starts for side navbar*/
+.container3{
+	height: 100%;
+	width: 300px;
+	padding: 20px;
+	background-color: #c0c0c0;
+}
+
+.sidenav{
+	color: red;
+}
+
+.sidenav a{
+	text-decoration: none;
+}
+
